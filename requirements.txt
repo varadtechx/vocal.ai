@@ -1,0 +1,34 @@
+#pip libraries for  tts 
+numpy 
+scipy 
+unidecode 
+inflect
+librosa --user
+
+
+
+# for wav2lip please follow the instructions in the link below
+
+python 3.6 
+sudo apt-get install ffmpeg
+pip install -r requirements.txt
+wget "https://www.adrianbulat.com/downloads/python-fan/s3fd-619a316812.pth" -O "/usr/local/lib/python3.7/dist-packages/Wav2Lip/face_detection/detection/sfd/gfs3fd.pth"
+
+# requirements for wav2lip
+
+librosa==0.7.0
+numpy==1.17.1
+opencv-contrib-python>=4.2.0.34
+opencv-python==4.1.0.25
+torch==1.1.0
+torchvision==0.3.0
+tqdm==4.45.0
+numba==0.48
+
+
+
+flask 
+subprocess
+requests 
+os 
+streamlit

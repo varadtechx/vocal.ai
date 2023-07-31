@@ -1,0 +1,8 @@
+test/*.mp4
+test/*.wav
+TTS/tacotron.zip
+TTS/sample_text.txt
+*.pth
+*.pt
+*.ckpt
+./tts_model/*
